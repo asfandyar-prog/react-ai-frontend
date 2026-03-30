@@ -1,21 +1,12 @@
-import MyComponent from "./MyComponent";
-const App = ()=>{
+const App = () => {
   return <div>
-    <MyComponent bgcolor="Yellow" height={120}>
-      hello
-    </MyComponent>
-    <MyComponent bgcolor="Green" height={40}>
-      goood moring
-
-    </MyComponent>
-    todo
-  </div>;
-
+    <div className="text-rose-300 bg-red-300">
+      Hello, Tailwind CSS!
+    </div>
+  </div>
 }
 
-export default App;
-
-
+export default App; 
 
 
 
