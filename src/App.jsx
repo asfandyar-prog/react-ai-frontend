@@ -1,20 +1,13 @@
-const Box = (props)=>{
-  const {label , bgcolor , textcolor , large} = props;
-  return <div style={{backgroundColor:props.bgcolor, color:props.textcolor,
-    fontSize: props.large ? "30px" : "16px"
-   }}>
-    {label}
-  </div>
-}
-
-
+import MyComponent from "./MyComponent";
 const App = ()=>{
   return <div>
-    <Box  label="my name is box" 
-     bgcolor="blue" 
-     textcolor="white"
-     large={true} 
-    />
+    <MyComponent bgcolor="Yellow" height={120}>
+      hello
+    </MyComponent>
+    <MyComponent bgcolor="Green" height={40}>
+      goood moring
+
+    </MyComponent>
     todo
   </div>;
 
